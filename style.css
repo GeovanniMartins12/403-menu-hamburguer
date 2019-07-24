@@ -11,6 +11,21 @@ nav{
     justify-content: center;
 }
 
+nav #desktop{
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav #desktop a{
+    text-decoration: none;
+    color: limegreen;
+    font-size: 20pt;
+    font-weight: 800;
+}
+
 nav div{
     width: 50px;
     height: 80%;
@@ -70,4 +85,22 @@ section a{
     position: relative;
     top: 8px;
     background-color: yellow;
+}
+
+@media(min-width: 768px){
+    nav #desktop{
+        display: flex;
+    }
+
+    nav #hamburguer{
+        display: none;
+    }
+    nav{
+        width: 100%;
+        height: 180px;
+    }
+
+    section{
+        display: none;
+    }
 }
