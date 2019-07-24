@@ -45,8 +45,29 @@ section a{
     margin-top: 20px;
     font-size: 16pt;
     color: black;
+    font-weight: bolder;
 }
 
 .aparecerMenu{
-    transform: translateX(0);
+    transform: translateX(0) rotate(360deg);
+    background-color: blue;
+}
+
+.sumirIgualTiro{
+    transform: translateX(-70vw);
+    background-color: aquamarine;
+}
+
+.virarX1{
+    transform: rotateZ(-45deg);
+    transform-origin: right center;
+    background-color: magenta;
+}
+
+.virarX2{
+    transform: rotateZ(45deg);
+    transform-origin: right center;
+    position: relative;
+    top: 8px;
+    background-color: yellow;
 }
