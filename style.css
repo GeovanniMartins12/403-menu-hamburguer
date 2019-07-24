@@ -37,7 +37,7 @@ section{
     justify-content: center;
     padding-left: 30px;
     transform: translateX(-105%);
-    transition: 0.4s;
+    transition: 2s;
 }
 
 section a{
@@ -45,4 +45,8 @@ section a{
     margin-top: 20px;
     font-size: 16pt;
     color: black;
+}
+
+.aparecerMenu{
+    transform: translateX(0);
 }
